@@ -1,2 +1,6 @@
 # SMART-PILLBOX-REMINDING-THE-ELDERLY
-The Smart Pillbox, powered by ESP32, automates medication reminders and monitoring through 7 IR sensors, RGB LEDs, a buzzer, TFT LCD display, and DS3231 RTC with backup battery and Telegram support.
+Following medication schedules is vital for older adults with chronic diseases. However, forgetting to take medication due to memory loss or schedule confusion is a common and serious problem. This project introduces a Smart Pillbox solution using the ESP32 microcontroller to automate the medication reminder and management process.
+
+The current design is equipped with 7 IR sensors to detect medication-taking status on each day of the week, combined with RGB LED and buzzer to provide timely warnings. The system integrates a TFT LCD screen to display information and a DS3231 module with a 2000 mAh Li-Po battery to ensure stable operation, even during power outages. When the user misses a dose, the system automatically sends an SMS alert via Telegram to relatives/caregivers.
+
+More importantly, this report proposes a future development direction, focusing on integrating AI. By collecting and analyzing users' medication-taking behavior patterns (response time, delay), ML algorithms will be applied to personalize reminder schedules. The goal is to optimize alarm times, minimize discomfort, and increase medication adherence, thereby improving healthcare efficiency for the elderly.
