@@ -2,7 +2,7 @@
 #pragma once
 
 // Wi-Fi
-#define WIFI_SSID     "SSOD"
+#define WIFI_SSID     "SSID"
 #define WIFI_PASSWORD "PASSWORD"
 
 // Telegram (optional)
